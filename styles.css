@@ -12,7 +12,7 @@ li {
 
 /* Global styles */
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Playfair Display", serif;
   background-color: #f4f4f4;
   line-height: 1.6;
 }
@@ -25,14 +25,14 @@ body {
 
 /* Header styles */
 header {
-  background-color: #333;
-  color: #fff;
+  background-color: #422040;
+  color: #e57a44;
   padding: 20px 0;
   text-align: center;
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 40px;
 }
 
 nav ul {
@@ -46,10 +46,13 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: #e57a44;
   font-weight: bold;
+  font-size: large;
 }
-
+nav a:hover {
+  color: #e3d985;
+}
 /* Hero section styles */
 .hero {
   background-image: url("https://miro.medium.com/v2/resize:fit:1400/0*nh4IFT2ZgybLEfyi");
@@ -73,18 +76,18 @@ nav ul li a {
 }
 
 .hero h2 {
-  font-size: 48px;
+  font-size: 56px;
   margin-bottom: 10px; /* Adjust margin for spacing */
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 28px;
   margin-top: 10px; /* Adjust margin for spacing */
 }
 
 /* Contact info section styles */
 .contact-info {
-  background-color: #f05a28;
+  background-color: #e57a44;
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -93,8 +96,18 @@ nav ul li a {
 .contact-info h2 {
   font-size: 36px;
   margin-bottom: 20px;
+  color: #422040;
 }
-
+.contact-info a {
+  color: #422040;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  color: #e3d985;
+}
+.contact-info p {
+  color: #422040;
+}
 /* Menu page styles */
 .menu {
   text-align: center;
@@ -113,4 +126,5 @@ nav ul li a {
 .menu-item {
   font-size: 20px;
   margin: 10px 0;
+  color: black;
 }
